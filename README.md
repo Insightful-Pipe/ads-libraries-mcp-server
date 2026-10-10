@@ -4,7 +4,7 @@
 [![Insightful Pipe](https://img.shields.io/badge/Insightful_Pipe-MCP_Servers-purple)](https://insightfulpipe.com/mcp-servers)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **Connect Ads Libraries to AI assistants: competitor ad research across Meta, Google, LinkedIn and Microsoft ad libraries.**
+> **Connect Ads Libraries to AI assistants: competitor ad research across Meta, Google, LinkedIn, Microsoft and TikTok ad libraries.**
 
 Part of the [Insightful Pipe MCP Server Collection](https://insightfulpipe.com/mcp-servers) — use Ads Libraries from Claude, ChatGPT, Cursor, and other AI assistants through the Model Context Protocol (MCP).
 
@@ -64,9 +64,9 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 
 ## Available Actions
 
-14 actions: 14 read, 0 write.
+17 actions: 17 read, 0 write.
 
-### Read Actions (14)
+### Read Actions (17)
 
 | Action | Description |
 |--------|-------------|
@@ -84,6 +84,9 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 | `microsoft_list_countries` | List available country codes for Microsoft Ads filtering |
 | `microsoft_search_ads` | Search Microsoft Ads Library |
 | `microsoft_search_advertisers` | Search for Microsoft advertisers by name |
+| `tiktok_ad_details` | Get targeting, reach and creative details for a TikTok Ad Library ad |
+| `tiktok_search_ads` | Search TikTok Ad Library (ads shown in the EU, EEA, UK, Switzerland and Turkey) |
+| `tiktok_top_ads` | Get TikTok's top-performing ads from Creative Center |
 
 ## Control What Your AI Can Do
 
@@ -106,6 +109,10 @@ You decide what AI agents can do with each connected account:
 
 ```
 "Look up the Google ads a competitor domain is running"
+```
+
+```
+"Show the top TikTok ads in beauty in the US over the last 30 days"
 ```
 
 ## Pricing
